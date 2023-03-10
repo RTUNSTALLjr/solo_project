@@ -1,13 +1,13 @@
 from django.shortcuts import render
 
 def index(request):
-    return render(request, 'dashboard.html')
+    return render(request, 'reviews/dashboard.html')
 
 def media(request):
-    return render(request, 'media.html')
+    return render(request, 'reviews/media.html')
 
 def all(request):
-    return render(request,'all_reviews.html')
+    return render(request,'reviews/all_reviews.html')
 
 def one(request):
-    return render(request, 'one_review.html')
+    return render(request, 'reviews/one_review.html')
