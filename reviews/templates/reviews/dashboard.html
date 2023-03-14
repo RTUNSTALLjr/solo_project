@@ -1,7 +1,7 @@
 {% extends "reviews/base.html" %}
 {% block reviews %}
     <div class="d-flex justify-content-center p-3 gap-5">
-        <div id="carouselExampleAutoplaying" class="carousel slide w-50 text-light p-3 border border-light-1" style="background-color: rgb(41, 11, 11);" data-bs-ride="carousel">
+        <div id="carouselExampleAutoplaying" class="carousel slide w-75 h-50 text-light p-3 border border-light-1" style="background-color: rgb(41, 11, 11);" data-bs-ride="carousel">
             <h2>New Reviews</h2>
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -28,16 +28,14 @@
                 <span class="visually-hidden">Next</span>
             </button>
             </div>
-            <div>
-                <div class="text-light d-flex flex-column gap-4" style="margin-right: 100px;">
+                <div class="text-light d-flex flex-column gap-4">
                     <h3>Coming Soon</h3>
-                    <div class="border border-light-1" style="background-color: rgb(41, 11, 11);">
-                        <img style="width: 200px; height: 250px;" src="https://buycheapplaycheap.com/wp-content/uploads/2023/02/Atomic-Heart-Buy-Cheap-Play-Cheap-Cover-Art.jpg" alt="">
+                    <div>
+                        <img class="border border-light-1" style="width: 14vw; height: 18vw;" src="https://buycheapplaycheap.com/wp-content/uploads/2023/02/Atomic-Heart-Buy-Cheap-Play-Cheap-Cover-Art.jpg" alt="">
                     </div>
-                    <div class="border border-light-1" style="background-color: rgb(41, 11, 11);">
-                        <img style="width: 200px; height: 250px;" src="https://i0.wp.com/news.xbox.com/en-us/wp-content/uploads/sites/2/2023/02/wo_long_dynasty-74db052518c00bbf8a9b.jpg?fit=720%2C1080&ssl=1" alt="">
+                    <div>
+                        <img class="border border-light-1" style="width: 14vw; height: 18vw;" src="https://i0.wp.com/news.xbox.com/en-us/wp-content/uploads/sites/2/2023/02/wo_long_dynasty-74db052518c00bbf8a9b.jpg?fit=720%2C1080&ssl=1" alt="">
                     </div>
                 </div>
-            </div>
     </div>
 {% endblock reviews %}
